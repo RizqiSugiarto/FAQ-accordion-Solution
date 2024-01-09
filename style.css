@@ -1,0 +1,130 @@
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --LightPink: hsl(275, 100%, 97%);
+    --Grayishpurple: hsl(292, 16%, 49%);
+    --DarkPurple: hsl(292, 42%, 14%);
+}
+
+body{
+    background-color: var(--LightPink);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Work Sans";
+    height: 100vh;
+    margin: 0;
+}
+
+.ub{
+    display: inline;
+    position: absolute;
+    top: 0;
+    
+}
+
+.title{
+    display: flex;
+    margin-left: 1rem;
+}
+
+.t1{
+    font-weight: 700;
+    font-size: 60px;
+    margin-left: 1.5rem;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+h2:hover{
+    color: #ad28eb;
+}
+
+p{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--Grayishpurple);
+}
+
+.title img{
+    padding-left: 1rem;
+}
+
+.content img{
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    margin-top: 0.9rem;
+}
+
+.card{
+    background-color: var(--White);
+    border-radius: 1rem;
+    box-shadow:
+  0px 2.4px 3.8px rgba(0, 0, 0, 0.059),
+  0px 6.5px 10.4px rgba(0, 0, 0, 0.085),
+  0px 15.7px 25px rgba(0, 0, 0, 0.111),
+  0px 52px 83px rgba(0, 0, 0, 0.17)
+;
+    position: relative;
+    width: 600px;
+    margin-top: 10rem;
+}
+
+button{
+    border-radius: 50%;
+}
+
+.content{
+    margin: -1rem 2.5rem 0rem;
+    padding-bottom: 1.5rem;
+}
+
+.d1{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.d2{
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 1rem;
+    margin-top: 1rem; */
+}
+
+.d3{
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 1rem; */
+}
+
+.d4{
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 1rem; */
+}
+
+.hidden{
+    display: none;
+}
+
+.attribution{
+    font-weight: 10;
+    font-size: 8px;
+    margin-top: 3rem;
+}
+
+.attribution a{
+    text-decoration: none;
+}
+
+@media (max-width: 1440px) {
+    .card {
+        max-width: 100%; /* Lebar maksimal menjadi 100% untuk layar yang lebih kecil */
+    }
+}
